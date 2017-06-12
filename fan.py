@@ -85,5 +85,14 @@
 #     print('hello %s' % x)
 #     if x > 9:
 #         break
-for x in range(0,15):
-    while
+# for y in range(1,8):
+#     print (2*y)
+ingredients=['snails','leeches','gorilla belly-button lint',
+             'caterpillar eyebrows','centipede toes']
+for x in range(1,6):
+    print('%s %s' % (x,ingredients[x-1]))
+
+
+
+
+# print ingredients

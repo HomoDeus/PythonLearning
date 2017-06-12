@@ -12,11 +12,11 @@
 # myscore=1000
 # message='I scored %s points'
 # print (message % myscore)
-# joke_text='%s: a device for finding furniture in the dark'
-# bodepart1='knee'
-# bodypart2='shin'
-# print joke_text % bodepart1
-# print joke_text % bodypart2
+joke_text='%s: a device for finding furniture in the dark'
+bodepart1='knee'
+bodypart2='shin'
+print joke_text % bodepart1
+print joke_text % bodypart2
 # nums='what did the number %s say to the number %s?nice belt!!\n'
 # print 10*nums % (0,8,4,6,5,4,1,5,6,4,5,6,2,2,2,2,2,2,2,2)
 # spaces = ' ' * 30
@@ -41,13 +41,13 @@
 # print wizard_list
 # del wizard_list[5]
 # print wizard_lis\
-import turtle
-t=turtle._getpen()
-
-len=100
-n=6
-angle=180-(n-2)*180/n
-for i in range(0,n):
-    t.forward(len)
-    t.right(angle)
-print t
+# import turtle
+# t=turtle._getpen()
+#
+# len=100
+# n=6
+# angle=180-(n-2)*180/n
+# for i in range(0,n):
+#     t.forward(len)
+#     t.right(angle)
+# print t
